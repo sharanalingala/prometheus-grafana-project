@@ -1,0 +1,11 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+ai-agent/bin/
+*.exe
+*.tar.gz
+*.log
+"@ | Set-Content .gitignore
